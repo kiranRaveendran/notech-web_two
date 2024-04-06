@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Slow Scrolling Text</title>
+
+</head>
+<style>
+    
+    .marquee_content{
+        list-style: none;
+        height: 100%;
+        animation:scrolling 6s linear infinite;
+    }
+    @keyframes scrolling{
+        0%{transform:translateX(80vw);}
+        100%{transform:translateX(-180vw);}
+    }
+    li{
+
+        border:3px solid teal;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+    }
+</style>
+<body class="h-[100vh] flex justify-center items-center ">
+    <!-- Marquee with slower scrolling -->
+    <!-- <marquee scrolldelay="">This is a slowly scrolling text.</marquee> -->
+
+    <div class="marquee bg-black text-red-300 w-[80vw] h-[20vh] fl">
+        <!-- overflow-hidden -->
+        <ul class="marquee_content  flex  ">
+            <li class="w-[10vw]">1</li>
+            <li class="w-[10vw]">2</li>
+            <li class="w-[10vw]">3</li>
+            <li class="w-[10vw]">4</li>
+            <li class="w-[10vw]">5</li>
+            <li class="w-[10vw]">6</li>
+            <li class="w-[10vw]">7</li>
+            <li class="w-[10vw]">8</li>
+            <li class="w-[10vw]">9</li>
+            <li class="w-[10vw]">10</li>
+            
+        </ul>
+    </div>
+</body>
+</html>

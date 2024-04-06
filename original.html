@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Uvodo</title>
+
+        <style>
+            .infinite-scroll {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: row;
+    width: 200%; /* This is the key to the infinite scroll effect */
+    animation: infinite-scroll 25s linear infinite;
+    justify-content: end;
+    }
+
+@keyframes infinite-scroll {
+    0% {
+    transform: translateX(0);
+    }
+    100% {
+    transform: translateX(-100%);
+}
+}
+        </style>
+    </head>
+
+    <body>
+
+    <div class="Main_container bg-black">
+            <!-- /////////////////////// page one  -->
+            <div class="page_1">
+                <div
+                    class="nav_bar px-6 py-2 bg-black h-[7vh] flex justify-between">
+                    <!-- ////////////////////////// nav_bar -->
+                    <div class="image flex justify-center items-center">
+                        <img class="h-[5vh]" src="image/logo.png" alt>
+                    </div>
+                    <div
+                        class="buttons hidden sm:flex justify-center  items-center gap-5 text-white">
+                        <a href="#">Pricing</a>
+                        <p>|</p>
+                        <a href="#">Sign in</a>
+                        <button
+                            class="bg-[#E8F91F] text-black rounded-md px-4 py-1">Create
+                            store for
+                            free</button>
+                    </div>
+                </div>
+                <div
+                    class="first_session mt-4 text-white   sm:px-16 sm:h-[70vh] flex flex-col justify-center items-center gap-5">
+                    <h1 class="text-2xl font-semibold sm:text-6xl"> Your
+                        eCommerce store,</h1>
+                    <h1 class="text-2xl font-semibold sm:text-6xl">live in
+                        minutes.</h1>
+                    <p class="text-md sm:w-[38vw] text-center px-2">Uvodo is
+                        your quick-start eCommerce platform to sell
+                        products online. Local and global payments, powerful
+                        built-in selling tools, and zero extra costs.
+                    </p>
+                    <button
+                        class="bg-[#E8F91F] text-black rounded-md px-6 py-4">Create
+                        store for free</button>
+                    <p class="text-xs mb-3 sm:mb-0">Loved by 500+ small business
+                        owners.</p>
+                </div>
+                <!--//////////////////////////////////////// star boxes -->
+                <div
+                    class="star_boxes flex flex-col sm:flex-row justify-center items-center gap-5 sm:gap-20 sm:px-16 text-white py-10">
+                    <div
+                        class="box1 gap-3 flex flex-col justify-center items-center">
+                        <img class="w-[10vw]" src="image/Star.png" alt>
+                        <p class="text-xs sm:text-md">"Hands down the best
+                            platform and</p>
+                        <p class="text-xs sm:text-md">custormer support!"</p>
+                    </div>
+                    <div
+                        class="box1 gap-3 flex flex-col justify-center items-center">
+                        <img class="w-[10vw]" src="image/Star.png" alt>
+                        <p
+                            class="text-xs sm:text-md">"Uvodo is the most wounderful systemin !"</p>
+                        <p class="text-xs sm:text-md">in eCommerce!"</p>
+
+                    </div>
+                    <div
+                        class="box1 gap-3 flex flex-col justify-center items-center">
+                        <img class="w-[10vw]" src="image/Star.png" alt>
+                        <p class="text-xs sm:text-md">"Hands down the best
+                            platform and</p>
+                        <p class="text-xs sm:text-md">custormer support!"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="page_2">
+                <!-- ////////////////////////////////////////////////////////// page two -->
+                <div class="sreenshot_image    sm:px-16">
+                    <img class=" " src="image/screenshot.png" alt>
+                </div>
+            </div>
+            <!-- ////////////////////////////////////////////////////////// page Three -->
+            <div class="page_3">
+
+                <div class="section_one mt-5 sm:mt-16 flex flex-col">
+                    <h1 class="text-white text-center text-4xl px-3">What makes
+                        Uvodo different? </h1>
+                    <!-- content boxes -->
+                    <div
+                        class="content_boxes flex flex-col sm:flex-row gap-10 sm:gap-28 justify-center items-center py-7 sm:py-20">
+                        <div class="box_3 text-white">
+                            <img class="w-[10vw] sm:w-[3vw]"
+                                src="image/icon1.png" alt>
+                            <h1 class="text-xl py-2">No add-one needed</h1>
+                            <p>All inclusive essential</p>
+                            <p>conversion & automation tools.</p>
+                        </div>
+                        <div class="box_4 text-white">
+                            <img class="w-[10vw] sm:w-[3vw]"
+                                src="image/icon4.png" alt>
+                            <h1 class="text-xl py-2">No commissions</h1>
+                            <p>No commission or transaction </p>
+                            <p>fees charged.</p>
+                        </div>
+                        <div class="box_3 text-white">
+                            <img class="w-[10vw] sm:w-[3vw]"
+                                src="image/icon3.png" alt>
+                            <h1 class="text-xl py-2">No add-one needed</h1>
+                            <p>All inclusive essential</p>
+                            <p>conversion & automation tools.</p>
+                        </div>
+                        <div class="box_4 text-white">
+                            <img class="w-[10vw] sm:w-[3vw]"
+                                src="image/icon4.png" alt>
+                            <h1 class="text-xl py-2">No commissions</h1>
+                            <p>No commission or transaction </p>
+                            <p>fees charged.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- section two -->
+
+                <div class="section_Two text-white">
+                    <div class="heading py-9">
+                        <h1 class=" text-center text-4xl px-3">Join our
+                            merchants</h1>
+                        <h1 class=" text-center text-4xl px-3">Who succeed in
+                            selling with Uvodo</h1>
+                    </div>
+                    <!-- image boxes -->
+                    <div class="infinite-scroll ">
+                        <div
+                            class=" list flex gap-20">
+                            <div
+                                class="box_1 flex flex-col items-center justify-center">
+                                <img class="sm:w-[10vw] mb-2"
+                                    src="image/img1.svg"
+                                    alt>
+                                <div class="content flex items-center gap-">
+                                    <img class="sm:w-[2vw]" src="image/i.svg"
+                                        alt>
+                                    <p>Silk by Jamila</p>
+                                </div>
+
+                            </div>
+                            <div
+                                class="box_2 flex  flex-col items-center justify-center">
+                                <img class="mb-2 sm:w-[10vw]"
+                                    src="image/img2.svg"
+                                    alt>
+                                <div class="content flex items-center">
+                                    <img class="sm:w-[2vw]" src="image/i.svg"
+                                        alt>
+                                    <p>Silk by Jamila</p>
+                                </div>
+
+                            </div>
+                            <div
+                                class="box_3 flex  flex-col items-center justify-center">
+                                <img class="mb-2 sm:w-[10vw]"
+                                    src="image/img3.svg"
+                                    alt>
+                                <div class="content flex items-center">
+                                    <img class="sm:w-[2vw]" src="image/i.svg"
+                                        alt>
+                                    <p>Silk by Jamila</p>
+                                </div>
+
+                            </div>
+                            <div
+                                class="box_4 flex  flex-col items-center justify-center">
+                                <img class="mb-2 sm:w-[10vw]"
+                                    src="image/img4.svg"
+                                    alt>
+                                <div class="content flex items-center">
+                                    <img class="sm:w-[2vw]" src="image/i.svg"
+                                        alt>
+                                    <p>Silk by Jamila</p>
+                                </div>
+
+                            </div>
+
+                            <div
+                                class="box_1 flex  flex-col items-center justify-center">
+                                <img class="sm:w-[10vw] mb-2"
+                                    src="image/img1.svg"
+                                    alt>
+                                <div class="content flex items-center gap-">
+                                    <img class="sm:w-[2vw]" src="image/i.svg"
+                                        alt>
+                                    <p>Silk by Jamila</p>
+                                </div>
+
+                            </div>
+                            <div
+                                class="box_2 flex  flex-col items-center justify-center">
+                                <img class="mb-2 sm:w-[10vw]"
+                                    src="image/img2.svg"
+                                    alt>
+                                <div class="content flex items-center">
+                                    <img class="sm:w-[2vw]" src="image/i.svg"
+                                        alt>
+                                    <p>Silk by Jamila</p>
+                                </div>
+
+                            </div>
+                            <div
+                                class="box_3 flex  flex-col items-center justify-center">
+                                <img class="mb-2 sm:w-[10vw]"
+                                    src="image/img3.svg"
+                                    alt>
+                                <div class="content flex items-center">
+                                    <img class="sm:w-[2vw]" src="image/i.svg"
+                                        alt>
+                                    <p>Silk by Jamila</p>
+                                </div>
+
+                            </div>
+                            <div
+                                class="box_4 flex  flex-col items-center justify-center">
+                                <img class="mb-2 sm:w-[10vw]"
+                                    src="image/img4.svg"
+                                    alt>
+                                <div class="content flex items-center">
+                                    <img class="sm:w-[2vw]" src="image/i.svg"
+                                        alt>
+                                    <p>Silk by Jamila</p>
+                                </div>
+
+                            </div>
+                            <div
+                                class="box_1 flex flex-col items-center justify-center">
+                                <img class="sm:w-[10vw] mb-2"
+                                    src="image/img1.svg"
+                                    alt>
+                                <div class="content flex items-center gap-">
+                                    <img class="sm:w-[2vw]" src="image/i.svg"
+                                        alt>
+                                    <p>Silk by Jamila</p>
+                                </div>
+
+                            </div>
+                            <div
+                                class="box_2 flex  flex-col items-center justify-center">
+                                <img class="mb-2 sm:w-[10vw]"
+                                    src="image/img2.svg"
+                                    alt>
+                                <div class="content flex items-center">
+                                    <img class="sm:w-[2vw]" src="image/i.svg"
+                                        alt>
+                                    <p>Silk by Jamila</p>
+                                </div>
+
+                            </div>
+                            <div
+                                class="box_3 flex  flex-col items-center justify-center">
+                                <img class="mb-2 sm:w-[10vw]"
+                                    src="image/img3.svg"
+                                    alt>
+                                <div class="content flex items-center">
+                                    <img class="sm:w-[2vw]" src="image/i.svg"
+                                        alt>
+                                    <p>Silk by Jamila</p>
+                                </div>
+
+                            </div>
+                            <div
+                                class="box_4 flex  flex-col items-center justify-center">
+                                <img class="mb-2 sm:w-[10vw]"
+                                    src="image/img4.svg"
+                                    alt>
+                                <div class="content flex items-center">
+                                    <img class="sm:w-[2vw]" src="image/i.svg"
+                                        alt>
+                                    <p>Silk by Jamila</p>
+                                </div>
+
+                            </div>
+
+                            <div
+                                class="box_1 flex  flex-col items-center justify-center">
+                                <img class="sm:w-[10vw] mb-2"
+                                    src="image/img1.svg"
+                                    alt>
+                                <div class="content flex items-center gap-">
+                                    <img class="sm:w-[2vw]" src="image/i.svg"
+                                        alt>
+                                    <p>Silk by Jamila</p>
+                                </div>
+
+                            </div>
+                            <div
+                                class="box_2 flex  flex-col items-center justify-center">
+                                <img class="mb-2 sm:w-[10vw]"
+                                    src="image/img2.svg"
+                                    alt>
+                                <div class="content flex items-center">
+                                    <img class="sm:w-[2vw]" src="image/i.svg"
+                                        alt>
+                                    <p>Silk by Jamila</p>
+                                </div>
+
+                            </div>
+                            <div
+                                class="box_3 flex  flex-col items-center justify-center">
+                                <img class="mb-2 sm:w-[10vw]"
+                                    src="image/img3.svg"
+                                    alt>
+                                <div class="content flex items-center">
+                                    <img class="sm:w-[2vw]" src="image/i.svg"
+                                        alt>
+                                    <p>Silk by Jamila</p>
+                                </div>
+
+                            </div>
+                            <div
+                                class="box_4 flex  flex-col items-center justify-center">
+                                <img class="mb-2 sm:w-[10vw]"
+                                    src="image/img4.svg"
+                                    alt>
+                                <div class="content flex items-center">
+                                    <img class="sm:w-[2vw]" src="image/i.svg"
+                                        alt>
+                                    <p>Silk by Jamila</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                 
+
+                </div>
+            </div>
+                    <!-- ////////////////////////////////////////////////////////////page four -->
+                    <div class="page_4 px-16 mt-5">
+                        <div
+                            class="section_one text-white flex flex-col-reverse sm:flex-row gap-4 justify-center items-center justify-between ">
+                            <div class="box_one">
+                                <!-- box one -->
+                                <div
+                                    class="heading flex flex-col gap-4 py-9 sm:px-3">
+                                    <h1
+                                        class="text-1xl font-semibold  sm:text-4xl ">Light-speed
+                                        storefront</h1>
+                                    <h1
+                                        class="text-1xl font-semibold sm:text-4xl ">with
+                                        modern design</h1>
+                                </div>
+                                <!-- bullet points -->
+                                <div class="bullets flex flex-col gap-4 px-3">
+                                    <div
+                                        class="pullet_points flex items-center">
+                                        <img class=" sm:w-[2vw]"
+                                            src="image/star_point.svg" alt>
+                                        <p class="text-xs sm:text-base">Mobile
+                                            first
+                                            storefront</p>
+                                    </div>
+                                    <div
+                                        class="pullet_points flex items-center">
+                                        <img class="sm:w-[2vw]"
+                                            src="image/star_point.svg" alt>
+                                        <p class="text-xs sm:text-base">No code
+                                            theme
+                                            editor</p>
+                                    </div>
+                                    <div
+                                        class="pullet_points flex items-center">
+                                        <img class="sm:w-[2vw]"
+                                            src="image/star_point.svg" alt>
+                                        <p class="text-xs sm:text-base">Custom
+                                            branding</p>
+                                    </div>
+                                    <div
+                                        class="pullet_points flex items-center">
+                                        <img class="sm:w-[2vw]"
+                                            src="image/star_point.svg" alt>
+                                        <p class="text-xs sm:text-base">Themes
+                                            for every
+                                            niche (soon) </p>
+                                    </div>
+                                    <div class="px-3">
+                                        <button
+                                            class="  border border-white-300 px-5 py-3">Learn
+                                            more</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- box two -->
+                            <div class="box_two sm:pt-12">
+                                <img class=" mt-10"
+                                    src="image/b_Light speed.svg" alt>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ////////////////////////////////////////////////////////////page Five -->
+                    <div class="page_5 px-16 mt-5">
+                        <div
+                            class="section_one text-white flex flex-col sm:flex-row gap-4 justify-center items-center justify-between ">
+
+                            <div class="box_one sm:pt-12">
+                                <img class=" mt-10"
+                                    src="image/P_admin_pannel.svg" alt>
+                            </div>
+                            <div class="box_two">
+                                <!-- box one -->
+                                <div
+                                    class="heading flex flex-col gap-4 py-9 sm:px-3">
+                                    <h1
+                                        class="text-1xl font-semibold  sm:text-4xl ">Admin
+                                        panel with all</h1>
+                                    <h1
+                                        class="text-1xl font-semibold sm:text-4xl ">essential
+                                        tools</h1>
+                                </div>
+                                <!-- bullet points -->
+                                <div class="bullets flex flex-col gap-4 px-3">
+                                    <div
+                                        class="pullet_points flex items-center">
+                                        <img class=" sm:w-[2vw]"
+                                            src="image/star_point.svg" alt>
+                                        <p class="text-xs sm:text-base">Mobile
+                                            first
+                                            admin panel</p>
+                                    </div>
+                                    <div
+                                        class="pullet_points flex items-center">
+                                        <img class="sm:w-[2vw]"
+                                            src="image/star_point.svg" alt>
+                                        <p class="text-xs sm:text-base">Enabling
+                                            payment
+                                            gareways in clicks</p>
+                                    </div>
+                                    <div
+                                        class="pullet_points flex items-center">
+                                        <img class="sm:w-[2vw]"
+                                            src="image/star_point.svg" alt>
+                                        <p class="text-xs sm:text-base">Produc &
+                                            order
+                                            management</p>
+                                    </div>
+                                    <div
+                                        class="pullet_points flex items-center">
+                                        <img class="sm:w-[2vw]"
+                                            src="image/star_point.svg" alt>
+                                        <p
+                                            class="text-xs sm:text-base">Assogmomg
+                                            user
+                                            roles</p>
+                                    </div>
+                                    <div class="px-3">
+                                        <button
+                                            class="  border border-white-300 px-5 py-3">Learn
+                                            more</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ////////////////////////////////////////////////////////////page Six -->
+
+                    <div class="page_6 px-16 mt-5">
+                        <div
+                            class="section_one text-white flex flex-col-reverse sm:flex-row gap-4 justify-center items-center justify-between ">
+                            <div class="box_one">
+                                <!-- box one -->
+                                <div
+                                    class="heading flex flex-col gap-4 py-9 sm:px-3">
+                                    <h1
+                                        class="text-1xl font-semibold  sm:text-4xl ">Local
+                                        & global</h1>
+                                    <h1
+                                        class="text-1xl font-semibold sm:text-4xl ">payment
+                                        gateways</h1>
+                                </div>
+                                <!-- bullet points -->
+                                <div class="bullets flex flex-col gap-4 px-3">
+                                    <div
+                                        class="pullet_points flex items-center">
+                                        <img class=" sm:w-[2vw]"
+                                            src="image/star_point.svg" alt>
+                                        <p class="text-xs sm:text-base">Global
+                                            payment
+                                            gateways</p>
+                                    </div>
+                                    <div
+                                        class="pullet_points flex items-center">
+                                        <img class="sm:w-[2vw]"
+                                            src="image/star_point.svg" alt>
+                                        <p class="text-xs sm:text-base">local
+                                            payment
+                                            gateways</p>
+                                    </div>
+                                    <div
+                                        class="pullet_points flex items-center">
+                                        <img class="sm:w-[2vw]"
+                                            src="image/star_point.svg" alt>
+                                        <p class="text-xs sm:text-base">manual
+                                            payment
+                                            options</p>
+                                    </div>
+                                    <div
+                                        class="pullet_points flex items-center">
+                                        <img class="sm:w-[2vw]"
+                                            src="image/star_point.svg" alt>
+                                        <p class="text-xs sm:text-base">Local
+                                            currencies
+                                        </p>
+                                    </div>
+                                    <div class="px-3">
+                                        <button
+                                            class="  border border-white-300 px-5 py-3">Learn
+                                            more</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- box two -->
+                            <div class="box_two sm:pt-12">
+                                <img class=" mt-10"
+                                    src="image/global and local.svg"
+                                    alt>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ////////////////////////////////////////////////////////////page Seven -->
+                    <div class="page_7 px-16 mt-5">
+                        <div
+                            class="section_one text-white flex flex-col sm:flex-row gap-4 justify-center items-center justify-between ">
+
+                            <div class="box_one sm:pt-12">
+                                <img class=" mt-10"
+                                    src="image/inventory and shiping.svg" alt>
+                            </div>
+                            <div class="box_two">
+                                <!-- box one -->
+                                <div
+                                    class="heading flex flex-col gap-4 py-9 sm:px-3">
+                                    <h1
+                                        class="text-1xl font-semibold  sm:text-4xl ">Inventory
+                                        and shipping</h1>
+                                    <h1
+                                        class="text-1xl font-semibold sm:text-4xl ">management
+                                        tools</h1>
+                                </div>
+                                <!-- bullet points -->
+                                <div class="bullets flex flex-col gap-4 px-3">
+                                    <div
+                                        class="pullet_points flex items-center">
+                                        <img class=" sm:w-[2vw]"
+                                            src="image/star_point.svg" alt>
+                                        <p
+                                            class="text-xs sm:text-base">Inventory
+                                            management</p>
+                                    </div>
+                                    <div
+                                        class="pullet_points flex items-center">
+                                        <img class="sm:w-[2vw]"
+                                            src="image/star_point.svg" alt>
+                                        <p class="text-xs sm:text-base">Shipping
+                                            rules</p>
+                                    </div>
+                                    <div
+                                        class="pullet_points flex items-center">
+                                        <img class="sm:w-[2vw]"
+                                            src="image/star_point.svg" alt>
+                                        <p class="text-xs sm:text-base">Shipping
+                                            services integrations</p>
+                                    </div>
+                                    <div
+                                        class="pullet_points flex items-center">
+                                        <img class="sm:w-[2vw]"
+                                            src="image/star_point.svg" alt>
+                                        <p class="text-xs sm:text-base">Country
+                                            specific
+                                            tax management</p>
+                                    </div>
+                                    <div class="px-3">
+                                        <button
+                                            class="  border border-white-300 px-5 py-3">Learn
+                                            more</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ////////////////////////////////////////////////////////////page eight -->
+                    <h1
+                        class="text-1xl font-semibold text-center sm:text-4xl text-white mt-5 sm:mt-12 sm:py-6">Get
+                        Uvodo for your industry</h1>
+                    <div class="Page_8 text-white flex ">
+
+                        <div class="w-2/12 border border-black flex ">
+                        </div>
+                        <div id="sliderContainer"
+                            class="w-10/12  overflow-hidden ">
+                            <ul id="slider" class="flex w-full   ">
+                                <!--slider transition-margin duration-700 is setting in js file -->
+                                <li class="p-5">
+                                    <div class="card text-center sm:text-left">
+                                        <img class="sm:w-[20vw]"
+                                            src="image/card2.svg"
+                                            alt>
+                                        <h1 class="text-white text-2xl  mt-4">
+                                            Small
+                                            business</h1>
+                                        <p class="text-gray-400">Move your
+                                            retail
+                                            business
+                                            online and </p>
+                                        <p class="text-gray-400">start selling
+                                            products
+                                            on a
+                                            free website.</p>
+                                        <p class="text-gray-400">start selling
+                                            products
+                                            on a
+                                            free website.</p>
+                                    </div>
+                                </li>
+
+                                <li class=" p-5">
+                                    <div class="card text-center sm:text-left">
+                                        <img class="sm:w-[20vw]"
+                                            src="image/card1.svg"
+                                            alt>
+                                        <h1 class="text-white text-2xl  mt-4">
+                                            Small
+                                            business</h1>
+                                        <p class="text-gray-400">Move your
+                                            retail
+                                            business
+                                            online and </p>
+                                        <p class="text-gray-400">start selling
+                                            products
+                                            on a
+                                            free website.</p>
+                                    </div>
+                                </li>
+
+                                <li class=" p-5">
+                                    <div class="card text-center sm:text-left">
+                                        <img class="sm:w-[20vw]"
+                                            src="image/card2.svg"
+                                            alt>
+                                        <h1 class="text-white text-2xl  mt-4">
+                                            Small
+                                            business</h1>
+                                        <p class="text-gray-400">Move your
+                                            retail
+                                            business
+                                            online and </p>
+                                        <p class="text-gray-400">start selling
+                                            products
+                                            on a
+                                            free website.</p>
+                                    </div>
+                                </li>
+
+                                <li class=" p-5">
+                                    <div class="card text-center sm:text-left">
+                                        <img class="sm:w-[20vw]"
+                                            src="image/card3.svg"
+                                            alt>
+                                        <h1 class="text-white text-2xl  mt-4">
+                                            Small
+                                            business</h1>
+                                        <p class="text-gray-400">Move your
+                                            retail
+                                            business
+                                            online and </p>
+                                        <p class="text-gray-400">start selling
+                                            products
+                                            on a
+                                            free website.</p>
+                                    </div>
+                                </li>
+
+                                <li class=" p-5">
+                                    <div class="card text-center sm:text-left">
+                                        <img class="sm:w-[20vw]"
+                                            src="image/card3.svg"
+                                            alt>
+                                        <h1 class="text-white text-2xl  mt-4">
+                                            Small
+                                            business</h1>
+                                        <p class="text-gray-400">Move your
+                                            retail
+                                            business
+                                            online and </p>
+                                        <p class="text-gray-400">start selling
+                                            products
+                                            on a
+                                            free website.</p>
+                                    </div>
+                                </li>
+
+                                <li class=" p-5">
+                                    <div class="card text-center sm:text-left">
+                                        <img class="sm:w-[20vw]"
+                                            src="image/card3.svg"
+                                            alt>
+                                        <h1 class="text-white text-2xl  mt-4">
+                                            Small
+                                            business</h1>
+                                        <p class="text-gray-400">Move your
+                                            retail
+                                            business
+                                            online and </p>
+                                        <p class="text-gray-400">start selling
+                                            products
+                                            on a
+                                            free website.</p>
+                                    </div>
+                                </li>
+
+                                <li class=" p-5">
+                                    <div class="card text-center sm:text-left">
+                                        <img class="sm:w-[20vw]"
+                                            src="image/card3.svg"
+                                            alt>
+                                        <h1 class="text-white text-2xl  mt-4">
+                                            Small
+                                            business</h1>
+                                        <p class="text-gray-400">Move your
+                                            retail
+                                            business
+                                            online and </p>
+                                        <p class="text-gray-400">start selling
+                                            products
+                                            on a
+                                            free website.</p>
+                                    </div>
+                                </li>
+
+                                <li class="p-5">
+                                    <div class="card text-center sm:text-left">
+                                        <img class="sm:w-[20vw]"
+                                            src="image/card1.svg"
+                                            alt>
+                                        <h1 class="text-white text-2xl  mt-4">
+                                            Small
+                                            business</h1>
+                                        <p class="text-gray-400">Move your
+                                            retail
+                                            business
+                                            online and </p>
+                                        <p class="text-gray-400">start selling
+                                            products
+                                            on a
+                                            free website.</p>
+                                    </div>
+                                </li>
+
+                                <li class="  p-5">
+                                    <div class="card text-center sm:text-left">
+                                        <img class="sm:w-[20vw]"
+                                            src="image/card2.svg"
+                                            alt>
+                                        <h1 class="text-white text-2xl  mt-4">
+                                            Small
+                                            business</h1>
+                                        <p class="text-gray-400">Move your
+                                            retail
+                                            business
+                                            online and </p>
+                                        <p class="text-gray-400">start selling
+                                            products
+                                            on a
+                                            free website.</p>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!-- next button -->
+                        <div class="w-2/12 border border-black flex ">
+                            <div class="w-full text-left">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- //////////////left and right buttons -->
+
+                    <div class="buttons flex justify-center gap-16 ">
+                        <div class="button_one">
+                            <button onclick="Prev()"
+                                class="p-2 border border-gray-700 rounded-full bg-white">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="black" class="w-6 h-6">
+                                    <path stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
+                                </svg>
+
+                            </button>
+                        </div>
+                        <div class="button_two">
+                            <button onclick="Next()"
+                                class="p-2 rounded-full bg-white">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="black" class="w-6 h-6">
+                                    <path stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>
+
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- ////////////////////////////////////////////////////////////page nine -->
+                    <div class="page_9 text-white px-4 sm:px-16 py-5 sm:py-10 ">
+                        <h1
+                            class="text-xl font-semibold sm:text-4xl text-center mb-5">See
+                            why our customers love us</h1>
+                        <!-- box container -->
+                        <div
+                            class="content_Box_container py4 sm:py-10 flex flex-col   sm:gap-16">
+                            <div
+                                class="Card_box_one flex flex-col sm:flex-row gap-10 items-center justify-center sm:justify-between">
+                                <!-- card one -->
+                                <div
+                                    class="card_one w-fit bg-neutral-800 rounded-md">
+                                    <div class="content px-4 py-4">
+                                        <img class="w-[] sm:w-[8vw]"
+                                            src="image/Star.png" alt>
+                                        <h1 class="text-xl mt-2">Moving
+                                            from</h1>
+                                        <h1 class="text-xl mb-2">WooCommerce to
+                                            Uvodo</h1>
+                                        <p class="text-sm">My website is on
+                                            wordpress,I'm</p>
+                                        <p class="text-sm">moving from wordpress
+                                            to
+                                            Uvodo.</p>
+                                        <p class="text-sm">i've a new project
+                                            now
+                                            i'm working on</p>
+                                        <p class="text-sm">with Uvodo</p>
+                                        <div
+                                            class="satr flex items-center mt-3">
+                                            <img class="sm:w-[2vw]"
+                                                src="image/single_star.svg" alt>
+                                            <p
+                                                class="text-base font-semibold">Trustpilot</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card two -->
+                                <div
+                                    class="card_one w-fit bg-neutral-800 rounded-md">
+                                    <div class="content px-4 py-4">
+                                        <img class="w-[] sm:w-[8vw]"
+                                            src="image/Star.png" alt>
+                                        <h1 class="text-xl mt-2">Moving
+                                            from</h1>
+                                        <h1 class="text-xl mb-2">WooCommerce to
+                                            Uvodo</h1>
+                                        <p class="text-sm">My website is on
+                                            wordpress,I'm</p>
+                                        <p class="text-sm">moving from wordpress
+                                            to
+                                            Uvodo.</p>
+                                        <p class="text-sm">i've a new project
+                                            now
+                                            i'm working on</p>
+                                        <p class="text-sm">with Uvodo</p>
+                                        <div
+                                            class="satr flex items-center mt-3">
+                                            <img class="sm:w-[2vw]"
+                                                src="image/single_star.svg" alt>
+                                            <p
+                                                class="text-base font-semibold">Trustpilot</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card three -->
+                                <div
+                                    class="card_one w-fit bg-neutral-800 rounded-md">
+                                    <div class="content px-4 py-4">
+                                        <img class="w-[] sm:w-[8vw]"
+                                            src="image/Star.png" alt>
+                                        <h1 class="text-xl mt-2">Moving
+                                            from</h1>
+                                        <h1 class="text-xl mb-2">WooCommerce to
+                                            Uvodo</h1>
+                                        <p class="text-sm">My website is on
+                                            wordpress,I'm</p>
+                                        <p class="text-sm">moving from wordpress
+                                            to
+                                            Uvodo.</p>
+                                        <p class="text-sm">i've a new project
+                                            now
+                                            i'm working on</p>
+                                        <p class="text-sm">with Uvodo</p>
+                                        <div
+                                            class="satr flex items-center mt-3">
+                                            <img class="sm:w-[2vw]"
+                                                src="image/single_star.svg" alt>
+                                            <p
+                                                class="text-base font-semibold">Trustpilot</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card box two/////////// -->
+                            <div
+                                class="Card_box_one flex flex-col sm:flex-row gap-10 items-center justify-center sm:justify-between">
+                                <!-- card one -->
+                                <div
+                                    class="card_one w-fit bg-neutral-800 rounded-md">
+                                    <div class="content px-4 py-4">
+                                        <img class="w-[] sm:w-[8vw]"
+                                            src="image/Star.png" alt>
+                                        <h1 class="text-xl mt-2">Moving
+                                            from</h1>
+                                        <h1 class="text-xl mb-2">WooCommerce to
+                                            Uvodo</h1>
+                                        <p class="text-sm">My website is on
+                                            wordpress,I'm</p>
+                                        <p class="text-sm">moving from wordpress
+                                            to
+                                            Uvodo.</p>
+                                        <p class="text-sm">i've a new project
+                                            now
+                                            i'm working on</p>
+                                        <p class="text-sm">with Uvodo</p>
+                                        <div
+                                            class="satr flex items-center mt-3">
+                                            <img class="sm:w-[2vw]"
+                                                src="image/single_star.svg" alt>
+                                            <p
+                                                class="text-base font-semibold">Trustpilot</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card two -->
+                                <div
+                                    class="card_one w-fit bg-neutral-800 rounded-md">
+                                    <div class="content px-4 py-4">
+                                        <img class="w-[] sm:w-[8vw]"
+                                            src="image/Star.png" alt>
+                                        <h1 class="text-xl mt-2">Moving
+                                            from</h1>
+                                        <h1 class="text-xl mb-2">WooCommerce to
+                                            Uvodo</h1>
+                                        <p class="text-sm">My website is on
+                                            wordpress,I'm</p>
+                                        <p class="text-sm">moving from wordpress
+                                            to
+                                            Uvodo.</p>
+                                        <p class="text-sm">i've a new project
+                                            now
+                                            i'm working on</p>
+                                        <p class="text-sm">with Uvodo</p>
+                                        <div
+                                            class="satr flex items-center mt-3">
+                                            <img class="sm:w-[2vw]"
+                                                src="image/single_star.svg" alt>
+                                            <p
+                                                class="text-base font-semibold">Trustpilot</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card three -->
+                                <div
+                                    class="card_one w-fit bg-neutral-800 rounded-md">
+                                    <div class="content px-4 py-4">
+                                        <img class="w-[] sm:w-[8vw]"
+                                            src="image/Star.png" alt>
+                                        <h1 class="text-xl mt-2">Moving
+                                            from</h1>
+                                        <h1 class="text-xl mb-2">WooCommerce to
+                                            Uvodo</h1>
+                                        <p class="text-sm">My website is on
+                                            wordpress,I'm</p>
+                                        <p class="text-sm">moving from wordpress
+                                            to
+                                            Uvodo.</p>
+                                        <p class="text-sm">i've a new project
+                                            now
+                                            i'm working on</p>
+                                        <p class="text-sm">with Uvodo</p>
+                                        <div
+                                            class="satr flex items-center mt-3">
+                                            <img class="sm:w-[2vw]"
+                                                src="image/single_star.svg" alt>
+                                            <p
+                                                class="text-base font-semibold">Trustpilot</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- ////////////////////////////////////////////////////////////page ten -->
+                    <div class="page_10 px-16 ">
+                        <div
+                            class="yellow_box bg-[#E8F91F] rounded-xl flex flex-col items-center justify-center sm:py-16">
+                            <h1
+                                class="text-center  font-semibold text-xl  sm:text-4xl mb-10">Got
+                                something to sell?</h1>
+                            <button
+                                class="text-white bg-black rounded-md text-sm sm:text-md sm:font-md px-2 py-2 sm:px-9 sm:py-4">Create
+                                store for free</button>
+                            <div
+                                class="tick_and_content flex flex-row justify-center mt-3">
+                                <img class="w-[10vw] sm:w-[2vw]"
+                                    src="image/tick.png" alt>
+                                <p>no credit card required</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ////////////////////////////////////////////////////////////page eleven -->
+                    <div class="page_11 sm:px-16 py-8 sm:py-16">
+                        <div
+                            class="section_bucket text-white  flex flex-col gap-10 text-center sm:text-left">
+                            <div class="section_one ">
+                                <img class="h-[5vh] mb-3 px-3"
+                                    src="image/logo.png" alt>
+                                <p class="text-gray-400">Simplifying online
+                                    sellings.
+                                </p>
+                            </div>
+                            <div
+                                class="section_two flex flex-col sm:flex-row gap-20">
+                                <div class="box1 flex flex-col gap-3">
+                                    <h1 class="text-gray-400">SUPPORT</h1>
+                                    <p>Pricing</p>
+                                    <p>Help center</p>
+                                </div>
+                                <div class="box2 flex flex-col gap-3">
+                                    <h1 class="text-gray-400">LEGAL</h1>
+                                    <p>Terms of service</p>
+                                    <p>Privacy policy</p>
+                                    <p>Cookie policy</p>
+                                </div>
+                                <div class="box3 flex flex-col gap-3">
+                                    <h1 class="text-gray-400">Contact</h1>
+                                    <p>support@uvodo.com</p>
+                                    <p>+1 650 614-1826</p>
+                                </div>
+
+                            </div>
+                            <div
+                                class="section_three flex flex-col sm:flex-row justify-center items-center justify-between  mt-2 sm:mt-6">
+                                <p class="text-gray-400 mb-2">Copyrigh @ 2024,
+                                    <span
+                                        class="text-white">Uvodo,
+                                        inc.</span></p>
+                                <div class="icons flex gap-5">
+                                    <img class="w-[5vw] sm:w-[2vw]"
+                                        src="image/f.svg"
+                                        alt>
+                                    <img class="w-[5vw] sm:w-[2vw]"
+                                        src="image/x.svg"
+                                        alt>
+                                    <img class="w-[5vw] sm:w-[2vw]"
+                                        src="image/in.svg"
+                                        alt>
+                                    <img class="w-[5vw] sm:w-[2vw]"
+                                        src="image/y.svg"
+                                        alt>
+                                    <img class="w-[5vw] sm:w-[2vw]"
+                                        src="image/link.svg"
+                                        alt>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 
+        </div>
+
+        
+    <script src="./js_file.js"> </script>
+    </body>
+    </html>
+
+    
